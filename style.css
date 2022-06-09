@@ -9,6 +9,7 @@
   }
 .header{
     width: 100vw;
+    
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -43,8 +44,8 @@ color: #0B0669;
       height: 100%;
   }
   .mobile-frame{
-    width:355px ;
-    height:770px;
+    min-width:390px ;
+    height:82%;
     background: #000002;
     border-radius: 30px;
     display: flex;
@@ -81,17 +82,26 @@ color: #0B0669;
   @media (min-width: 768px) and (max-width: 1024px) {
   
     .mobile-frame{
-        width:281px ;
-        height:608px;
+        min-width:281px ;
+        
         
       }
     
   }
-  @media (min-width: 1025px) and (max-width: 1440px) {
+  @media (min-width: 1025px) and (max-width: 1280px) {
   
     .mobile-frame{
-        width:272px ;
-        height:588px;
+        min-width:272px ;
+       
+        
+      }
+  
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  
+    .mobile-frame{
+        min-width:272px ;
+       
         
       }
   
