@@ -43,9 +43,8 @@ color: #0B0669;
       height: 100%;
   }
   .mobile-frame{
-    width: 390px;
-    height: 844px;
-    max-height:90%;
+    width:355px ;
+    height:770px;
     background: #000002;
     border-radius: 30px;
     display: flex;
@@ -53,13 +52,13 @@ color: #0B0669;
    align-items: center;
   }
   .dark-mode{
-      height: 140px;
+      height: 16.58%;
   }
   .yazi{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 52px;
+    height:  6.16%;
     width: 100%;
     padding-left: 30px;
     font-family: 'Inter';
@@ -72,18 +71,37 @@ color: #0B0669;
     color: #FFFFFF;
   }
   .dark-mode-box{
-    width: 332px;
-    height: 340px;
+    width: 85.12%;
+    height: 40.28%;
     background: linear-gradient(41.67deg, #FFAF0B 1.43%, #FFB928 38.84%, #E7FF57 121.93%);
     border-radius: 10px;
     overflow: hidden;
     margin-bottom:24px;
   }
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .mobile-frame{
+        width:281px ;
+        height:608px;
+        
+      }
+    
+  }
+  @media (min-width: 1025px) and (max-width: 1440px) {
+  
+    .mobile-frame{
+        width:272px ;
+        height:588px;
+        
+      }
+  
+}
 
   .alt-box{
-      width:332px;
-      height:112px;
-      background: #1B1A1D;
+    width: 85.12%;
+     
+      height: 13.86%;
+      background-color: #1B1A1D;
         border-radius: 10px;
         margin-bottom:24px;
   }
