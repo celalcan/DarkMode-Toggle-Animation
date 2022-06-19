@@ -1,3 +1,3 @@
 # DarkMode-Toggle-Animation
 Soon..
-28 Haziran
+28 Haziran..
