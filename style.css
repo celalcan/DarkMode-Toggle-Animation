@@ -6,9 +6,13 @@
 
   body{
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #140D91;
   }
 .header{
-    width: 100vw;
+    width: 1440px;
     
     height: 100vh;
     display: flex;
@@ -33,19 +37,32 @@ letter-spacing: 0.01em;
 color: #0B0669;
   }
   .orta{
-      width: 33%;
+    width:390px ;
+      padding: 2% 3% 2% 3%;
       height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+      height:844px;
   }
   .sag{
       width: 33%;
       height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 3% 2% 3%;
+  }
+  .rect{
+   
+    max-width: 100%;
+    max-height: 100%;
   }
   .mobile-frame{
-    min-width:390px ;
-    height:82%;
+   
+    max-width: 100%;
+    max-height: 100%;
+  
     background: #000002;
     border-radius: 30px;
     display: flex;
@@ -79,33 +96,7 @@ color: #0B0669;
     overflow: hidden;
     margin-bottom:24px;
   }
-  @media (min-width: 768px) and (max-width: 1024px) {
   
-    .mobile-frame{
-        min-width:281px ;
-        
-        
-      }
-    
-  }
-  @media (min-width: 1025px) and (max-width: 1280px) {
-  
-    .mobile-frame{
-        min-width:272px ;
-       
-        
-      }
-  
-}
-@media (min-width: 1280px) and (max-width: 1440px) {
-  
-    .mobile-frame{
-        min-width:272px ;
-       
-        
-      }
-  
-}
 
   .alt-box{
     width: 85.12%;
