@@ -36,22 +36,15 @@ letter-spacing: 0.01em;
 
 color: #0B0669;
   }
-  .ort{
-    height: 100%;
-    width: auto;
-    padding: 2% 3% 2% 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
 
   .orta{
-    width:390px ;
-      
+    width: 33%;
+    height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
-      height:844px;
+      
   }
   .sag{
       width: 33%;
@@ -59,7 +52,15 @@ color: #0B0669;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     padding: 2% 3% 2% 3%;
+  }
+  .frame-mobil{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    position: absolute;
+   
   }
   .rect{
     position: relative; 
