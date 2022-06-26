@@ -105,17 +105,33 @@ color: #0B0669;
     background: linear-gradient(41.67deg, #FFAF0B 1.43%, #FFB928 38.84%, #E7FF57 121.93%);
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom:24px;
   }
   
 
   .alt-box{
     width: 85.12%;
      
-      height: 13.86%;
+      height: 37.5%;
       background-color: #1B1A1D;
         border-radius: 10px;
-        margin-bottom:24px;
+        margin-bottom:7.69%;
+         margin-top:7.69%;
+  }
+  .alt-boxa{
+    width: 85.12%;
+     
+    height: 37.5%;
+      background-color: #1B1A1D;
+        border-radius: 10px;
+        margin-bottom:7.69%;
+  }
+  .uc{
+    height: 36.96%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .box-ust{
     display: flex;
@@ -143,8 +159,9 @@ color: #0B0669;
     align-items:flex-start;
     justify-content: flex-start;
    width: 100%;
- 
-   margin-top: 128px;
+   
+ /* 
+   margin-top: 128px; */
   }
 
   .yazii{
