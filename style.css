@@ -83,6 +83,10 @@ color: #0B0669;
   .dark-mode{
       height: 16.58%;
   }
+  .box-img{
+    max-width: 48.79%;
+    max-height: 100%;
+  }
   .yazi{
     display: flex;
     justify-content: flex-start;
