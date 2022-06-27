@@ -135,14 +135,20 @@ color: #0B0669;
     position: absolute;
    
   }
-  .bbaslik{
+  .baslik{
+    height: 48.529%;
     width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start
+  }
+  .bbaslik{
+    
     margin-left:5.722%;
     font-family: 'Lora';
 font-style: normal;
-font-weight: 700;
-font-size: 11.44%;
+font-weight: 500;
+font-size: 3.711vh;
 
 line-height: 110%;
 /* or 20px */
@@ -153,12 +159,12 @@ color: #FFFFFF;
   .box-alt{
     display: flex;
     align-items:flex-start;
-   width: 100%;
+    width: 100%;
     flex-direction: column;
     height: 60%;
     position: absolute;
     margin-top: 40%;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .alt-box{
