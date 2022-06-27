@@ -75,7 +75,7 @@ color: #0B0669;
     
   
     background: #000002;
-    border-radius: 2.5rem;
+    border-radius: 3vh;
     display: flex;
     flex-direction: column;
    align-items: center;
@@ -92,7 +92,7 @@ color: #0B0669;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    max-height: 50%;
+   
     height: auto;
     width: 50%;
     margin-top: 4.117%;
@@ -108,11 +108,11 @@ color: #0B0669;
     align-items: flex-start;
     height:  6.16%;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 7.69%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 3.2rem;
+    font-size: 1.8vw;
     line-height: 52.02%;
     
     letter-spacing: 0.01em;
@@ -122,19 +122,51 @@ color: #0B0669;
     width: 85.12%;
     height: 40.28%;
     background: linear-gradient(41.67deg, #FFAF0B 1.43%, #FFB928 38.84%, #E7FF57 121.93%);
-    border-radius: 10px;
+    border-radius: 1vh;
     overflow: hidden;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    position: relative;
   }
-  
+  .box-ust{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    position: absolute;
+   
+  }
+  .bbaslik{
+    width: 100%;
+    height: auto;
+    margin-left:5.722%;
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 11.44%;
+
+line-height: 110%;
+/* or 20px */
+margin-bottom: 8.823%;
+
+color: #FFFFFF;
+  }
+  .box-alt{
+    display: flex;
+    align-items:flex-start;
+   width: 100%;
+    flex-direction: column;
+    height: 60%;
+    position: absolute;
+    margin-top: 40%;
+    justify-content: center;
+  }
 
   .alt-box{
     width: 85.12%;
      
       height: 37.5%;
       background-color: #1B1A1D;
-        border-radius: 10px;
+      border-radius: 1vh;
         margin-bottom:7.69%;
          margin-top:7.69%;
   }
@@ -143,7 +175,7 @@ color: #0B0669;
      
     height: 37.5%;
       background-color: #1B1A1D;
-        border-radius: 10px;
+      border-radius: 1vh;
         margin-bottom:7.69%;
   }
   .uc{
@@ -174,16 +206,7 @@ color: #0B0669;
     justify-content: flex-end;
   }
 
-  .box-alt{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: flex-start;
-   width: 100%;
-   
- /* 
-   margin-top: 128px; */
-  }
+ 
 
   .yazii{
     font-family: 'Lora';
@@ -196,16 +219,24 @@ margin-left: 20px;
 color: #FFFFFF;
 margin-bottom: 20px;
   }
+  .buttonn{
+    width: 100%;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 19.51%;
+  }
   .button{
       display: flex;
       align-items: center;
       justify-content: center;
-    width: 295px;
-    height: 40px;
+    width: 88.85%;
+    height: 100%;
     color: rgba(255, 255, 255, 0.61);
     background: #9B6800;
     border-radius: 6px;
-      margin-left: 20px;
+    font-size: 1.56vh;
+      /* margin-left: 20px; */
   }
   
   .link{
@@ -222,7 +253,7 @@ margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.7);
   }
 
-  @media (min-width: 1024px) and (max-width: 1439px) {
+ /*  @media (min-width: 1024px) and (max-width: 1439px) {
     html{
       font-size:4px;
     }
@@ -236,4 +267,4 @@ margin-bottom: 20px;
     html{
       font-size:3px;
     }
-  }
+  } */
