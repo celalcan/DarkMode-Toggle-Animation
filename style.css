@@ -79,6 +79,66 @@ color: #0B0669;
   }
   .dark-mode{
       height: 16.58%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .mode-button{
+    width: 20.51%;
+    height: 29.285%;
+    background: #FFFFFF;
+      border-radius: 10002px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+  }
+  .mode-circle{
+    height: 78.048%;
+    width: 40%;
+    background: #D9D9D9;
+border-radius: 6222px;
+
+margin-right: 6.25%;
+  }
+  .mode-icons:active .mode-circle{
+   transform: translateY(-40px);
+  }
+  .mode-circle-ft{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    z-index: 1;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .mode-icons{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+  }
+  .moon{
+    width: 45.05%;
+  height: auto;
+  }
+  .mode-sol{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .mode-sag{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
   }
   .trend{
     width: 50%;
