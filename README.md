@@ -1,2 +1,2 @@
-# DarkMode-Toggle-Animation
+DarkMode-Toggle-Animation
 
