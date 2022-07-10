@@ -18,6 +18,8 @@
     setTimeout(function(){kaymaf()},8);       
      } 
      document.querySelector(".mode-circle").style.transform = "translateX(-"+kayma+"vw)";
+     document.querySelector(".moon").setAttribute('style', 'fill:green');
+
 }
    
      /* document.querySelector(".frame-mobil").style.height = frameyukseklik + "px";
