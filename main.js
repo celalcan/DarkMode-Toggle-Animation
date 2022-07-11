@@ -14,7 +14,7 @@
    }
    function kaymaf(){
     kayma+=0.15;
-    if(kayma<2.638){
+        if(kayma<2.638){
     setTimeout(function(){kaymaf()},8);       
      } 
      document.querySelector(".mode-circle").style.transform = "translateX(-"+kayma+"vw)";
