@@ -51,6 +51,7 @@
      i;
       for (let i = 0; i < paths.length; ++i) {
         console.log(paths[i]);
+         console.log(paths.length);
         paths[i].setAttribute('style', 'fill:green');
           paths[i].setAttribute('style', 'stroke:green');
       }
