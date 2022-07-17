@@ -113,6 +113,7 @@ border-radius: 6222px;
     z-index: 1;
     justify-content: flex-end;
     align-items: center;
+    margin-left: 6.25%;
   }
   .mode-icons{
     width: 100%;
@@ -121,6 +122,10 @@ border-radius: 6222px;
     z-index: 2;
     display: flex;
     flex-direction: row;
+  }
+  .sun{
+    width: 65.05%;
+  height: auto;
   }
   .moon{
     width: 45.05%;
