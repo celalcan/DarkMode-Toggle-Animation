@@ -84,6 +84,25 @@ color: #0B0669;
       justify-content: center;
       align-items: center;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .mode-button{
     width: 20.51%;
     height: 29.285%;
@@ -98,11 +117,15 @@ color: #0B0669;
     width: 40%;
     background: #D9D9D9;
 border-radius: 6222px;
+transition-timing-function: ease-in;
 
+  /* Quick on the way out */
+  transition: flex 4s;
+margin-right: 0.26vw;
 /* margin-right: 6.25%; */
   }
   .mode-icons:active .mode-circle{
-   transform: translateY(-40px);
+   /* transform: translateY(-40px); */
   }
   .mode-circle-ft{
     width: 100%;
@@ -113,7 +136,7 @@ border-radius: 6222px;
     z-index: 1;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 6.25%;
+   
   }
   .mode-icons{
     width: 100%;
@@ -124,27 +147,41 @@ border-radius: 6222px;
     flex-direction: row;
   }
   .sun{
-    width: 65.05%;
+    width: 63.41%;
   height: auto;
+  margin-left: 0.63vw;
   }
   .moon{
     width: 45.05%;
   height: auto;
+  margin-right: 0.63vw;
   }
   .mode-sol{
     width: 55%;
     height: 100%;
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: center;
   }
   .mode-sag{
     width: 55%;
     height: 100%;
     display: flex;
-    justify-content:center;
+    justify-content:flex-end;
     align-items: center;
   }
+
+
+
+
+
+
+
+
+
+
+
+  
   .trend{
     width: 50%;
     max-height: 50%;

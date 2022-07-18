@@ -42,12 +42,11 @@
     
    }
    function kaymaf(){
-    /* kayma+=0.15;
-        if(kayma<2.638){
-    setTimeout(function(){kaymaf()},8);       
-     } 
-     document.querySelector(".mode-circle").style.transform = "translateX(-"+kayma+"vw)"; */
+    
+     
      document.querySelector(".mode-circle-ft").style.justifyContent = "flex-start";
+     document.querySelector(".mode-circle-ft").style.marginRight = "0px";
+     document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw";
      document.querySelector(".mode-circle-ft").style.Color = "#ffff";
      var paths = document.querySelectorAll(".sun"),
      i;
