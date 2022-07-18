@@ -43,10 +43,10 @@
    }
    function kaymaf(){
     
-     
-     document.querySelector(".mode-circle-ft").style.justifyContent = "flex-start";
+     document.querySelector(".mode-circle-ft").style.transform = "translateX(-"+49+"%)";
+     /* document.querySelector(".mode-circle-ft").style.justifyContent = "flex-start"; */
      document.querySelector(".mode-circle-ft").style.marginRight = "0px";
-     document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw";
+    /*  document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw"; */
      document.querySelector(".mode-circle-ft").style.Color = "#ffff";
      var paths = document.querySelectorAll(".sun"),
      i;
