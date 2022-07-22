@@ -44,15 +44,31 @@
     
    }
 
-   function myFunction2(){
-    
+   function myFunction3(){
+    kaymaf2();
    }
 
    function kaymaf(){
     
      document.querySelector(".mode-circle-ft").style.transform = "translateX(-"+49+"%)";
      /* document.querySelector(".mode-circle-ft").style.justifyContent = "flex-start"; */
-     document.querySelector(".mode-circle-ft").style.marginRight = "0px";
+    /*  document.querySelector(".mode-circle-ft").style.marginRight = "0px"; */
+    /*  document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw"; */
+     document.querySelector(".mode-circle-ft").style.Color = "#ffff";
+     var paths = document.querySelectorAll(".sun"),
+     i;
+      for (let i = 0; i < paths.length; ++i) {
+        console.log(paths[i]);
+         console.log(paths.length);
+          paths[i].setAttribute('style', 'stroke:green');
+      }
+     
+}
+   function kaymaf2(){
+    
+     document.querySelector(".mode-circle-ft").style.transform = "translateX("+0+"px)";
+     /* document.querySelector(".mode-circle-ft").style.justifyContent = "flex-start"; */
+     document.querySelector(".mode-circle").style.marginRight = "0.26vw";
     /*  document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw"; */
      document.querySelector(".mode-circle-ft").style.Color = "#ffff";
      var paths = document.querySelectorAll(".sun"),
