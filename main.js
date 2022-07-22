@@ -34,6 +34,8 @@
     document.querySelector(".mobile-frame").style.height = frameyukseklik + "px";
      document.querySelector(".mobile-frame").style.width =framegenislik + "px";
    }
+
+
    let kayma=0;
    function myFunction2(){
    kaymaf();
@@ -41,6 +43,11 @@
     document.querySelector(".mode-circle").style.marginRight = "0px";
     
    }
+
+   function myFunction2(){
+    
+   }
+
    function kaymaf(){
     
      document.querySelector(".mode-circle-ft").style.transform = "translateX(-"+49+"%)";
