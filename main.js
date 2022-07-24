@@ -14,18 +14,7 @@
 
     // It's important to add an load event listener to the object,
     // as it will load the svg doc asynchronously
-    a.addEventListener("load", function () {
-
-        // get the inner DOM of alpha.svg
-        svgDoc = a.contentDocument;
-        // get the inner element by id
-        var paths = svgDoc.querySelectorAll("path");
-        // add behaviour
-        for (i = 0; i < paths.length; i++) {
-            paths[i].setAttribute('style', 'fill:green');
-        }
-
-    }, false);
+  
   
   function myFunction(){
     let framegenislik = document.querySelector("#rect").offsetWidth;
@@ -51,10 +40,10 @@
    function kaymaf(){
     
      document.querySelector(".mode-circle-ft").style.transform = "translateX(-"+49+"%)";
-     /* document.querySelector(".mode-circle-ft").style.justifyContent = "flex-start"; */
-    /*  document.querySelector(".mode-circle-ft").style.marginRight = "0px"; */
-    /*  document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw"; */
+     document.querySelector(".mode-button").style.background = "#D9D9D9";
+     document.querySelector(".mode-circle").style.background = "#ffff";
      document.querySelector(".mode-circle-ft").style.Color = "#ffff";
+     document.querySelector(".mobile-frame").style.background= "#ffff";
      document.querySelector(".moon").style.transform = "rotate(0deg)";
      document.querySelector(".sun").style.transform = "rotate(260deg)";
      var paths = document.querySelectorAll(".sun"),
@@ -62,27 +51,39 @@
       for (let i = 0; i < paths.length; ++i) {
         console.log(paths[i]);
          console.log(paths.length);
-          paths[i].setAttribute('style', 'stroke:green');
+          paths[i].setAttribute('style', 'stroke:#FFB928');
       }
-     
+      var pathss = document.querySelectorAll(".moonn"),
+      i;
+       for (let i = 0; i < pathss.length; ++i) {
+         console.log(pathss[i]);
+          console.log(pathss.length);
+           pathss[i].setAttribute('style', 'fill:#5555');
+       }
 }
    function kaymaf2(){
     
      document.querySelector(".mode-circle-ft").style.transform = "translateX("+0+"px)";
-     /* document.querySelector(".mode-circle-ft").style.justifyContent = "flex-start"; */
      document.querySelector(".mode-circle").style.marginRight = "0.26vw";
-    /*  document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw"; */
      document.querySelector(".mode-circle-ft").style.Color = "#ffff";
+     document.querySelector(".mobile-frame").style.background= "black";
      document.querySelector(".moon").style.transform = "rotate(-24deg)";
      document.querySelector(".sun").style.transform = "rotate(-260deg)";
+     document.querySelector(".mode-button").style.background = "#fffff";
      var paths = document.querySelectorAll(".sun"),
      i;
       for (let i = 0; i < paths.length; ++i) {
         console.log(paths[i]);
          console.log(paths.length);
-          paths[i].setAttribute('style', 'stroke:green');
+          paths[i].setAttribute('style', 'stroke:#CFCFCF');
       }
-     
+      var pathss = document.querySelectorAll(".moonn"),
+      i;
+       for (let i = 0; i < pathss.length; ++i) {
+         console.log(pathss[i]);
+          console.log(pathss.length);
+           pathss[i].setAttribute('style', 'fill:black');
+       }
 }
    
      /* document.querySelector(".frame-mobil").style.height = frameyukseklik + "px";
