@@ -151,11 +151,17 @@ margin-right: 0.26vw;
     width: 63.41%;
   height: auto;
   margin-left: 1.36vh;
+  transition-timing-function: ease-in;
+
+    transition: 0.4s;
   }
   .moon{
     width: 45.05%;
   height: auto;
   margin-right: 0.63vw;
+  transition-timing-function: ease-in;
+
+    transition: 0.4s;
   }
   .mode-sol{
     width: 55%;
