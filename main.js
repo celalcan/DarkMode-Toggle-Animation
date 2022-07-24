@@ -64,12 +64,13 @@
    function kaymaf2(){
     
      document.querySelector(".mode-circle-ft").style.transform = "translateX("+0+"px)";
+     
+     document.querySelector(".mode-button").style.background = "#fff";
      document.querySelector(".mode-circle").style.marginRight = "0.26vw";
-     document.querySelector(".mode-circle-ft").style.Color = "#ffff";
+     document.querySelector(".mode-circle").style.background= "#D9D9D9";
      document.querySelector(".mobile-frame").style.background= "black";
      document.querySelector(".moon").style.transform = "rotate(-24deg)";
      document.querySelector(".sun").style.transform = "rotate(-260deg)";
-     document.querySelector(".mode-button").style.background = "#fffff";
      var paths = document.querySelectorAll(".sun"),
      i;
       for (let i = 0; i < paths.length; ++i) {
@@ -93,7 +94,7 @@ window.addEventListener('resize', function(event){
     let framegenislik = document.querySelector("#rect").offsetWidth;
     let frameyukseklik = document.querySelector("#rect").offsetHeight;
    document.querySelector(".mobile-frame").style.height = frameyukseklik + "px";
-    document.querySelector(".mobile-frame").style.width =framegenislik + "px";
+    document.querySelector(".mobile-frame").style.width =framegenislik + "px";/* 
     document.querySelector(".frame-mobil").style.height = frameyukseklik + "px";
-    document.querySelector(".frame-mobil").style.width =framegenislik + "px";
+    document.querySelector(".frame-mobil").style.width =framegenislik + "px"; */
 });
