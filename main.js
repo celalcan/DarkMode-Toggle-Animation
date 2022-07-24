@@ -56,6 +56,7 @@
     /*  document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw"; */
      document.querySelector(".mode-circle-ft").style.Color = "#ffff";
      document.querySelector(".moon").style.transform = "rotate(0deg)";
+     document.querySelector(".sun").style.transform = "rotate(260deg)";
      var paths = document.querySelectorAll(".sun"),
      i;
       for (let i = 0; i < paths.length; ++i) {
@@ -73,6 +74,7 @@
     /*  document.querySelector(".mode-circle-ft").style.marginLeft = "0.46vw"; */
      document.querySelector(".mode-circle-ft").style.Color = "#ffff";
      document.querySelector(".moon").style.transform = "rotate(-24deg)";
+     document.querySelector(".sun").style.transform = "rotate(-260deg)";
      var paths = document.querySelectorAll(".sun"),
      i;
       for (let i = 0; i < paths.length; ++i) {
