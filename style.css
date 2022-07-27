@@ -68,6 +68,7 @@ color: #0B0669;
     position: relative; 
     max-width: 100%;
     max-height: 100%;
+    opacity: 0;
   }
  
   .mobile-frame{
@@ -76,6 +77,9 @@ color: #0B0669;
     display: flex;
     flex-direction: column;
    align-items: center;
+   transition-timing-function: ease-in;
+
+    transition: 0.4s;
   }
   .dark-mode{
       height: 16.58%;

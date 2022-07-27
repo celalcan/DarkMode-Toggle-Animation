@@ -46,6 +46,7 @@
      document.querySelector(".mobile-frame").style.background= "#ffff";
      document.querySelector(".moon").style.transform = "rotate(0deg)";
      document.querySelector(".sun").style.transform = "rotate(260deg)";
+     document.querySelector(".yazi").style.color = "black";
      var paths = document.querySelectorAll(".sun"),
      i;
       for (let i = 0; i < paths.length; ++i) {
@@ -71,6 +72,7 @@
      document.querySelector(".mobile-frame").style.background= "black";
      document.querySelector(".moon").style.transform = "rotate(-24deg)";
      document.querySelector(".sun").style.transform = "rotate(-260deg)";
+     document.querySelector(".yazi").style.color = "#ffff";
      var paths = document.querySelectorAll(".sun"),
      i;
       for (let i = 0; i < paths.length; ++i) {
