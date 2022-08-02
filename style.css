@@ -197,6 +197,15 @@ margin-right: 0.26vw;
     width: 50%;
     max-height: 50%;
      margin-top: 4.117%;
+     display: flex;
+     margin-left: 1.31vw;
+     margin-top: 1.31vw;
+  }
+  .trend-box{
+    width: 4.79vw;
+    height: 1.95vh;
+    background-color: #140D91;
+    border-radius: 10000px;
   }
   .box-img-ft{
     display: flex;
