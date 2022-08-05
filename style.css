@@ -202,10 +202,25 @@ margin-right: 0.26vw;
      margin-top: 1.31vw;
   }
   .trend-box{
-    width: 4.79vw;
-    height: 1.95vh;
-    background-color: #140D91;
+    width: 41.56%;
+    height: 21.76%;
+    background-color: #D9A235;
     border-radius: 10000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .trend-yazi{
+    font-size: 0.60vw;
+    color: #fff;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+  }
+  .trend-img{
+    max-width: auto;
+    height: 0.79vw;
   }
   .box-img-ft{
     display: flex;
@@ -303,6 +318,32 @@ color: #FFFFFF;
       background-color: #1B1A1D;
       border-radius: 1vh;
         margin-bottom:7.69%;
+  }
+  .alt-box-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size:1.11vw;
+color: #5C5C5C;
+height: auto;
+margin-bottom: 0.78vh;
+  }
+  .alt-box-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    height: auto;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size:1.11vw;
+height: auto;
+color: #DBD7D7;
+line-height: 82.02%;
+letter-spacing: 0.01em;
   }
   .uc{
     height: 36.96%;
