@@ -30,13 +30,20 @@ html{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 900;
-font-size: 78px;
+font-size: 5.41vw;
 line-height: 88.52%;
 /* or 69px */
 
 letter-spacing: 0.01em;
-
+position: relative;
 color: #0B0669;
+  }
+
+  .rect0{
+    position: absolute;
+    width: auto;
+    height: 38.11vh;
+    z-index: 5;
   }
 
 
@@ -67,8 +74,13 @@ color: #0B0669;
   .rect{
     position: relative; 
     max-width: 100%;
-    max-height: 100%;
+    height: 100%;
     opacity: 0;
+  }
+  .rect2{
+    width: auto;
+    height: 6.74;
+    position: absolute;
   }
  
   .mobile-frame{
@@ -314,6 +326,9 @@ color: #FFFFFF;
         margin-bottom:7.69%;
          margin-top:7.69%;
          padding: 1.46vh;
+         transition-timing-function: ease-in;
+
+    transition: 0.4s;
   }
   .alt-boxa{
     width: 85.12%;
@@ -323,6 +338,9 @@ color: #FFFFFF;
       border-radius: 1vh;
         margin-bottom:7.69%;
         padding: 1.46vh;
+        transition-timing-function: ease-in;
+
+    transition: 0.4s;
   }
   .alt-box-1{
     display: flex;
@@ -333,7 +351,9 @@ font-style: normal;
 font-weight: 500;
 font-size:1.11vw; 
 color: #5C5C5C;
+transition-timing-function: ease-in;
 
+    transition: 0.4s;
 line-height: 52.02%;
 height: auto;
 padding-bottom: 0.78vh;
@@ -345,6 +365,9 @@ padding-bottom: 0.78vh;
     height: auto;
     font-family: 'Inter';
 font-style: normal;
+transition-timing-function: ease-in;
+
+    transition: 0.4s;
 font-weight: 700;
 font-size:1.11vw;
 height: auto;
@@ -356,6 +379,9 @@ padding-bottom: 0.78vh;
   .alt-box-3{
     display: flex;
     flex-direction: row;
+    transition-timing-function: ease-in;
+
+    transition: 0.4s;
     align-items: center;
     justify-content: flex-start;
     
@@ -364,10 +390,16 @@ padding-bottom: 0.78vh;
     max-width: auto;
     height: 3.41vh;
     margin-right:0.69vw;
+    transition-timing-function: ease-in;
+
+    transition: 0.4s;
   }
   .alt-box-3-yazi{
     font-family: 'Inter';
 font-style: normal;
+transition-timing-function: ease-in;
+
+    transition: 0.4s;
 font-weight: 700;
 font-size: 1.66vw;
 line-height: 82.02%;

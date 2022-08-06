@@ -38,7 +38,9 @@
    }
 
    function kaymaf(){
-    
+   
+    document.getElementById('kutu').src="./kutu-2.png ";
+    document.getElementById('kutu2').src="./kutu-2.png ";
      document.querySelector(".mode-circle-ft").style.transform = "translateX(-"+49+"%)";
      document.querySelector(".mode-button").style.background = "#D9D9D9";
      document.querySelector(".mode-circle").style.background = "#ffff";
@@ -79,7 +81,8 @@ for (let i = 0; i < nodeList3.length; i++) {
    function kaymaf2(){
     
      document.querySelector(".mode-circle-ft").style.transform = "translateX("+0+"px)";
-     
+     document.getElementById('kutu').src="./kutu.png ";
+     document.getElementById('kutu2').src="./kutu.png ";
      document.querySelector(".mode-button").style.background = "#fff";
      document.querySelector(".mode-circle").style.marginRight = "0.26vw";
      document.querySelector(".mode-circle").style.background= "#D9D9D9";
