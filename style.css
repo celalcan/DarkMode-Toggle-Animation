@@ -217,10 +217,13 @@ margin-right: 0.26vw;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
+padding-top:2.47%;
+letter-spacing: 0.01em;
   }
   .trend-img{
     max-width: auto;
-    height: 0.79vw;
+    height: 0.70vw;
+    margin-right:7.24%;
   }
   .box-img-ft{
     display: flex;
