@@ -313,6 +313,7 @@ color: #FFFFFF;
       border-radius: 1vh;
         margin-bottom:7.69%;
          margin-top:7.69%;
+         padding: 1.46vh;
   }
   .alt-boxa{
     width: 85.12%;
@@ -321,6 +322,7 @@ color: #FFFFFF;
       background-color: #1B1A1D;
       border-radius: 1vh;
         margin-bottom:7.69%;
+        padding: 1.46vh;
   }
   .alt-box-1{
     display: flex;
@@ -331,8 +333,10 @@ font-style: normal;
 font-weight: 500;
 font-size:1.11vw; 
 color: #5C5C5C;
+
+line-height: 52.02%;
 height: auto;
-margin-bottom: 0.78vh;
+padding-bottom: 0.78vh;
   }
   .alt-box-2{
     display: flex;
@@ -347,6 +351,31 @@ height: auto;
 color: #DBD7D7;
 line-height: 82.02%;
 letter-spacing: 0.01em;
+padding-bottom: 0.78vh;
+  }
+  .alt-box-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .alt-box-3 img{
+    max-width: auto;
+    height: 3.41vh;
+    margin-right:0.69vw;
+  }
+  .alt-box-3-yazi{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 1.66vw;
+line-height: 82.02%;
+/* or 20px */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
   }
   .uc{
     height: 36.96%;
